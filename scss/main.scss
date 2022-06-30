@@ -1,0 +1,21 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/*Las variables se incertan arriba de todo*/
+@import  './variables/flexDirec';
+@import  './secciones/porque';
+@import  './secciones/index';
+@import  './secciones/header';
+@import  './secciones/footer';
+
+
+@media (max-width: 600px) {
+    .seccion3 {
+        flex-direction: column;
+        background-color: 100vh;
+    }
+
+}
+
+

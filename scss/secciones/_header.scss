@@ -1,0 +1,19 @@
+.container-fluid {
+    @include bold (larger, bold);
+    font-family: Open Sans, Arial, sans-serif;
+}
+
+.navbar-collapse {
+    flex-grow: inherit;
+    padding-right: 10vw;
+}
+
+
+.navbar-brand {
+    padding-left: 10vw;
+    font-size: 35px;
+}
+
+.text {
+    background-image: linear-gradient(to top, rgba(96, 129, 156, 0.819) 25%, rgba(0, 123, 255, 0.849) 100%);
+}

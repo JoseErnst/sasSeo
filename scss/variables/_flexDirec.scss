@@ -1,0 +1,20 @@
+%cFlex {
+    display: flex;
+    text-align:center;
+    justify-content:center;
+}
+@mixin bold ($larger, $bold){
+    font-size: $larger;
+    font-weight: $bold;
+}
+
+$titulo: "nuestr";
+
+h2{
+    @if($titulo == "nuestr" ){
+    font-family: larger;
+    font-weight: bold;
+} @else{
+    
+}
+}

@@ -1,0 +1,31 @@
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 1rem;
+}
+
+nav ul li:hover {
+  background-color: brown;
+}
+
+nav ul li a {
+  color: grey;
+}
+
+nav ul li a:active {
+  color: violet;
+}
+
+@media (min-width: 850px) {
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
