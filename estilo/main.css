@@ -114,9 +114,9 @@ h2 {
   transition: 1s;
 }
 
-.button {
-  background-color: rgba(77, 73, 73, 0.694);
-  margin: 1rem;
+.butn {
+  background-color: black;
+  margin-top: 5rem;
   color: white;
   text-decoration: none;
 }
