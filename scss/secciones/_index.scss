@@ -1,30 +1,27 @@
-
 .cards {
-    @extend %cFlex;
-    flex-direction: column;
-    background-image: url(../img/avionAterrizando.jpg);
-    width: 100%;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    color: white;
-
+  @extend %cFlex;
+  flex-direction: column;
+  background-image: url(../img/avionAterrizando.jpg);
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
 }
 
 .seccion2 {
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(77, 73, 73, 0.694);
-    &:hover{
-        transform: scale(1.2);
-        transition: 1s;
-    }   
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(77, 73, 73, 0.694);
+  &:hover {
+    transform: scale(1.2);
+    transition: 1s;
+  }
 }
-.butn{
-    background-color: black;
-    margin-top: 5rem;
-    color: white;
-    text-decoration: none;
-    
+.butn {
+  background-color: black;
+  margin-top: 5rem;
+  color: white;
+  text-decoration: none;
 }
